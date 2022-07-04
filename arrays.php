@@ -25,5 +25,18 @@ echo "<br>";
 
 $Mens = array('Brad' => 35, 'Jose' => 32);
 $Numbers = array(35 => 'Brad', 32 => 'Jose');
-echo $Mens['Brad']
+echo $Mens['Brad'];
+echo "<br>";
+
+
+//$ Multi-dimensional
+
+$Cars = array(
+    array('Honda', 20, 10),
+    array('Toyota', 32, 23)
+);
+echo $Cars[1][0];
+echo " - ";
+echo $Cars[1][1];
+
 ?>
